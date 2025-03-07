@@ -1,45 +1,35 @@
+html,body{
+    padding:0;
+    margin:0;
+    overflow:none;
+    width:100%;
+    height:100%;
+}
+
 body {
-    background: linear-gradient(to right, #f8a5c7, #fa84b3, #fa60a0);
-    height: 100vh;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-family: Arial, sans-serif;
+    background:url('images/index_background.jpeg');
+    font-family: 'Ubuntu', sans-serif;
+    background-position:center center;
+    background-size:cover;
+    color: #121212;
+}
+.loader{
+    position:absolute;
+    top:50%;
+    margin:-240px;
+    left:50%;
+    width:480px;
+    height:480px;    
+}
+.loader h1{
+    position: absolute;
+    top:0px;
+    left:0px;
     text-align: center;
-}
-
-.square {
-    width: 40vw; /* Use viewport width for responsiveness */
-    height: 40vw; /* Keep it square by using the same value */
-    background: linear-gradient(to right, #ff4d94, #ff1a75, #e6005c); /* Darker gradient */
-    border: 5px solid #ff1a75; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
-    display: flex;
-    flex-direction: column; /* Stack children vertically */
-    justify-content: center;
-    align-items: center;
-    padding: 10px; /* Add some padding */
-}
-
-h1 {
-    font-size: 1.5em; /* Responsive font size */
-    margin: 0; /* Remove default margin */
-}
-
-button {
-    padding: 10px 20px; /* Add padding to the button */
-    font-size: 1em; /* Responsive font size */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded corners for the button */
-    background-color: #ff1a75; /* Button background color */
-    color: white; /* Button text color */
-    cursor: pointer; /* Change cursor on hover */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
-
-button:hover {
-    background-color: #e6005c; /* Darker shade on hover */
+    width:100%;
+    top:0px;
+    line-height:420px;
+    font-size:24px;
+    color:rgba(255, 255, 255, 0.514);
+    font-weight:100;
 }
