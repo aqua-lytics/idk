@@ -11,8 +11,8 @@ body {
 }
 
 .square {
-    width: 50vw; /* Use viewport width for responsiveness */
-    height: 50vw; /* Keep it square by using the same value */
+    width: 40vw; /* Use viewport width for responsiveness */
+    height: 40vw; /* Keep it square by using the same value */
     background: linear-gradient(to right, #ff4d94, #ff1a75, #e6005c); /* Darker gradient */
     border: 5px solid #ff1a75; 
     border-radius: 10px; 
