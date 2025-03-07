@@ -7,7 +7,7 @@ html,body{
 }
 
 body {
-    background:url('images/index_background.jpeg');
+    background:url('index_background.jpeg');
     font-family: 'Ubuntu', sans-serif;
     background-position:center center;
     background-size:cover;
