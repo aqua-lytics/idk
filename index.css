@@ -7,7 +7,7 @@ html,body{
 }
 
 body {
-    background-color: rgba(249, 191, 84, 0.76);
+    background:url('index_background.jpeg');
     font-family: 'Ubuntu', sans-serif;
     background-position:center center;
     background-size:cover;
