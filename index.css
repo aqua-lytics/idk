@@ -7,12 +7,12 @@ body {
     align-items: center;
     color: white;
     font-family: Arial, sans-serif;
-    text-align: center; /* Center text in the body */
+    text-align: center;
 }
 
 .square {
-    width: 80vw; /* Use viewport width for responsiveness */
-    height: 80vw; /* Keep it square by using the same value */
+    width: 50vw; /* Use viewport width for responsiveness */
+    height: 50vw; /* Keep it square by using the same value */
     max-width: 300px; /* Set a maximum width */
     max-height: 300px; /* Set a maximum height */
     background: linear-gradient(to right, #ff4d94, #ff1a75, #e6005c); /* Darker gradient */
