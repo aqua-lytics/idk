@@ -13,8 +13,6 @@ body {
 .square {
     width: 50vw; /* Use viewport width for responsiveness */
     height: 50vw; /* Keep it square by using the same value */
-    max-width: 150px; /* Set a maximum width */
-    max-height: 150px; /* Set a maximum height */
     background: linear-gradient(to right, #ff4d94, #ff1a75, #e6005c); /* Darker gradient */
     border: 5px solid #ff1a75; 
     border-radius: 10px; 
